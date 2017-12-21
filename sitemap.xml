@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
+    <url>
+     <loc>/</loc>
+     <lastmod>2017-12-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/user/</loc>
+     <lastmod>2017-12-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/quick-start/</loc>
+     <lastmod>2017-12-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+        
+    <url>
+     <loc>/developer/</loc>
+     <lastmod>2017-12-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/developer/prerequisites/</loc>
+     <lastmod>2017-12-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/developer/commands/</loc>
+     <lastmod>2017-12-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/developer/events/</loc>
+     <lastmod>2017-12-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/developer/slack/</loc>
+     <lastmod>2017-12-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/developer/graphql/</loc>
+     <lastmod>2017-12-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/developer/create/</loc>
+     <lastmod>2017-12-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/developer/editors/</loc>
+     <lastmod>2017-12-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/developer/client/</loc>
+     <lastmod>2017-12-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/developer/run/</loc>
+     <lastmod>2017-12-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+    <url>
+     <loc>/support/</loc>
+     <lastmod>2017-12-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+</urlset>

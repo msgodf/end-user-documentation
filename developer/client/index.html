@@ -1,0 +1,1143 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Documentation for the Atomist Development Automation Platform">
+      
+      
+      
+        <meta name="author" content="The Atomist Team">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-0.17.1, mkdocs-material-2.0.4">
+    
+    
+      
+        <title>Automation Client - The Atomist Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application-709eec9410.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-23f75ab9c7.palette.css">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr-e826f8942a.js"></script>
+    
+    
+      
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    
+  </head>
+  
+    
+    
+    
+      <body data-md-color-primary="blue-grey" data-md-color-accent="blue">
+    
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="The Atomist Documentation" class="md-header-nav__button md-logo">
+          
+            <img src="../../img/atomist-logo-horiz-reversed.svg" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <span class="md-flex__ellipsis md-header-nav__title">
+          
+            
+              
+                <span class="md-header-nav__parent">
+                  Developer Guide
+                </span>
+              
+            
+            Automation Client
+          
+        </span>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="search"></label>
+  <div class="md-search__inner">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" required placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
+      <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">&#xE5CD;</button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    <span class="md-nav__button md-logo">
+      
+        <img src="../../img/atomist-logo-horiz-reversed.svg" width="24" height="24">
+      
+    </span>
+    The Atomist Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Introduction" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../user/" title="Using Atomist" class="md-nav__link">
+      Using Atomist
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../quick-start/" title="Developer Quick Start" class="md-nav__link">
+      Developer Quick Start
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+    
+    <label class="md-nav__link" for="nav-4">
+      Developer Guide
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Developer Guide
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../prerequisites/" title="Prerequisites" class="md-nav__link">
+      Prerequisites
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../commands/" title="Commands" class="md-nav__link">
+      Commands
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../events/" title="Events" class="md-nav__link">
+      Events
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../slack/" title="Slack Messages" class="md-nav__link">
+      Slack Messages
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../graphql/" title="Working with GraphQL" class="md-nav__link">
+      Working with GraphQL
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../create/" title="Creating Projects" class="md-nav__link">
+      Creating Projects
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../editors/" title="Editing Projects" class="md-nav__link">
+      Editing Projects
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Automation Client
+      </label>
+    
+    <a href="./" title="Automation Client" class="md-nav__link md-nav__link--active">
+      Automation Client
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#creating-a-client-project" title="Creating a client project" class="md-nav__link">
+    Creating a client project
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#slack" title="Slack" class="md-nav__link">
+    Slack
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#command-line" title="Command line" class="md-nav__link">
+    Command line
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#github" title="GitHub" class="md-nav__link">
+    GitHub
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#building-a-client" title="Building a client" class="md-nav__link">
+    Building a client
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#client-configuration" title="Client configuration" class="md-nav__link">
+    Client configuration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#starting-a-client" title="Starting a client" class="md-nav__link">
+    Starting a client
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#client-lifecycle" title="Client lifecycle" class="md-nav__link">
+    Client lifecycle
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-structure" title="Project structure" class="md-nav__link">
+    Project structure
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#packagejson" title="package.json" class="md-nav__link">
+    package.json
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#build" title="build" class="md-nav__link">
+    build
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#config" title="config" class="md-nav__link">
+    config
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#graphql" title="graphql" class="md-nav__link">
+    graphql
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#node_modules" title="node_modules" class="md-nav__link">
+    node_modules
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scripts" title="scripts" class="md-nav__link">
+    scripts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#src" title="src" class="md-nav__link">
+    src
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#atomistconfigts" title="atomist.config.ts" class="md-nav__link">
+    atomist.config.ts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#commands" title="commands" class="md-nav__link">
+    commands
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#events" title="events" class="md-nav__link">
+    events
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#typings" title="typings" class="md-nav__link">
+    typings
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#test" title="test" class="md-nav__link">
+    test
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../run/" title="Running Automation Clients" class="md-nav__link">
+      Running Automation Clients
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../support/" title="Support" class="md-nav__link">
+      Support
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#creating-a-client-project" title="Creating a client project" class="md-nav__link">
+    Creating a client project
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#slack" title="Slack" class="md-nav__link">
+    Slack
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#command-line" title="Command line" class="md-nav__link">
+    Command line
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#github" title="GitHub" class="md-nav__link">
+    GitHub
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#building-a-client" title="Building a client" class="md-nav__link">
+    Building a client
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#client-configuration" title="Client configuration" class="md-nav__link">
+    Client configuration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#starting-a-client" title="Starting a client" class="md-nav__link">
+    Starting a client
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#client-lifecycle" title="Client lifecycle" class="md-nav__link">
+    Client lifecycle
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-structure" title="Project structure" class="md-nav__link">
+    Project structure
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#packagejson" title="package.json" class="md-nav__link">
+    package.json
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#build" title="build" class="md-nav__link">
+    build
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#config" title="config" class="md-nav__link">
+    config
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#graphql" title="graphql" class="md-nav__link">
+    graphql
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#node_modules" title="node_modules" class="md-nav__link">
+    node_modules
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scripts" title="scripts" class="md-nav__link">
+    scripts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#src" title="src" class="md-nav__link">
+    src
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#atomistconfigts" title="atomist.config.ts" class="md-nav__link">
+    atomist.config.ts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#commands" title="commands" class="md-nav__link">
+    commands
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#events" title="events" class="md-nav__link">
+    events
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#typings" title="typings" class="md-nav__link">
+    typings
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#test" title="test" class="md-nav__link">
+    test
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>Automation Client</h1>
+                
+                <p>You interact with the Atomist development automation API via a
+client <a href="https://en.wikipedia.org/wiki/WebSocket" title="WebSocket">WebSocket</a> connection.  WebSocket connections are
+persistent, providing bidirectional communication between the client
+and the API.  As such, the client process is a persistent process with
+a lifecycle that is more like a traditional <em>server</em> process.  This
+section documents creating, building, and running an automation
+client, discusses each part of the client lifecycle, and details the
+structure and organization of a typical automation client project.</p>
+<p>Before you can build and run your own automation client,
+be sure someone in your Slack team has completed
+the <a href="../../user/" title="Atomist Setup">setup</a> and you have satisfied
+the <a href="../prerequisites/" title="Atomist Automation Prerequisites">prerequisites</a>.  Specifically, be sure you have</p>
+<ul>
+<li><a href="../../user/#slack" title="Add Atomist to Slack">Added the Atomist bot the your Slack team</a></li>
+<li><a href="../../user/#github" title="Authorize Atomist in GitHub">Authorized Atomist to access GitHub</a></li>
+<li><a href="../prerequisites/#nodejs" title="Install Node.js">Installed Node.js</a></li>
+<li><a href="../prerequisites/#atomist-cli" title="Install the Atomist CLI">Installed the Atomist CLI</a></li>
+<li><a href="../prerequisites/#github-token" title="Configure Atomist">Run <code>atomist config</code></a></li>
+</ul>
+<h2 id="creating-a-client-project">Creating a client project<a class="headerlink" href="#creating-a-client-project" title="Permanent link">&para;</a></h2>
+<p>An automation client project is any project that connects to the
+Atomist development automation API.  The reference implementation of
+the automation client is the <a href="https://github.com/atomist/automation-client-ts" title="Atomist Automation Client - TypeScript">automation-client-ts</a>
+library, which is written in <a href="https://www.typescriptlang.org/" title="TypeScript">TypeScript</a>.  The combination of
+TypeScript and <a href="http://graphql.org/" title="GraphQL">GraphQL</a> provides an excellent development
+experience, with excellent tooling and debugging support.</p>
+<p>There are a few ways to create a new automation client project.  We
+suggest using the <a href="https://github.com/atomist/automation-seed-ts" title="Atomist Automation Client Seed Project">automation-seed-ts</a> project as a seed for
+your automation client project.</p>
+<h3 id="slack">Slack<a class="headerlink" href="#slack" title="Permanent link">&para;</a></h3>
+<p>You can create your very own automation client project using the
+Atomist bot.  You can run this bot command, which itself is
+implemented as a command handler, with the following message to the
+Atomist bot:</p>
+<div class="codehilite"><pre><span></span>@atomist generate automation
+</pre></div>
+
+<p>The bot will ask you where you want to create it, what you want to
+name it, and, once creation is complete, tell you where you can find
+it.</p>
+<h3 id="command-line">Command line<a class="headerlink" href="#command-line" title="Permanent link">&para;</a></h3>
+<p>You can use the Atomist CLI to create a new automation project from
+the automation-seed-ts project.  Run the following command, replacing
+<code>PROJECT_NAME</code> with the name of your new project.</p>
+<div class="codehilite"><pre><span></span>atomist execute NewAutomation --name=PROJECT_NAME
+</pre></div>
+
+<h3 id="github">GitHub<a class="headerlink" href="#github" title="Permanent link">&para;</a></h3>
+<p>If you prefer the manual route, fixing up the project metadata
+yourself, you can always just fork the <a href="https://github.com/atomist/automation-seed-ts" title="Atomist Automation Client Seed Project">automation-seed-ts</a>
+project on GitHub.</p>
+<h2 id="building-a-client">Building a client<a class="headerlink" href="#building-a-client" title="Permanent link">&para;</a></h2>
+<p>Most automation client projects are written in <a href="https://www.typescriptlang.org/" title="TypeScript">TypeScript</a> and
+run on <a href="https://nodejs.org/en/" title="Node.js">Node.js</a>.  Building an automation client is the same as
+any standard TypeScript or JavaScript project.  First you install the
+project&rsquo;s dependencies</p>
+<div class="codehilite"><pre><span></span>npm install
+</pre></div>
+
+<p>then build the project, linting the TypeScript, compiling the
+TypeScript into JavaScript, generating other required files, and
+running tests.</p>
+<div class="codehilite"><pre><span></span>npm run build
+</pre></div>
+
+<h2 id="client-configuration">Client configuration<a class="headerlink" href="#client-configuration" title="Permanent link">&para;</a></h2>
+<p>The automation client will use the configuration you created when you
+ran <code>atomist config</code> as part of the <a href="../prerequisites/" title="Atomist Automation Client Prerequisites">prerequisites</a>.  The
+configuration file, typically located under your home/user profile
+directory at <code>.atomist/client.config.json</code>.  It is a standard JSON
+file that will look something like:</p>
+<div class="codehilite"><pre><span></span><span class="p">{</span>
+  <span class="nt">&quot;token&quot;</span><span class="p">:</span> <span class="s2">&quot;abcdef0123456789abcdef0123456789abcdef01&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;teamIds&quot;</span><span class="p">:</span> <span class="p">[</span>
+    <span class="s2">&quot;TK421WAYA&quot;</span><span class="p">,</span>
+  <span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+
+<p>The <code>token</code> is your <a href="../prerequisites/#github-token">GitHub personal access token</a> and the
+<code>teamIds</code> are the Slack teams where you want to run your automations.
+If you want to change the token or add/remove teams, you can just edit
+this file directly.  Remember, whatever token you use, it must have at
+least <em>read:org</em> and we recommend it also have the <em>repo</em> scope.</p>
+<p>If you are managing several automation client projects for different
+teams, you can override your user-level configuration using the
+project-level configuration in each project, typically located at
+<code>src/atomist.config.ts</code>.  A typical project configuration file will
+look like this:</p>
+<div class="codehilite"><pre><span></span><span class="kr">import</span> <span class="p">{</span> <span class="nx">Configuration</span> <span class="p">}</span> <span class="nx">from</span> <span class="s2">&quot;@atomist/automation-client/configuration&quot;</span><span class="p">;</span>
+<span class="kr">import</span> <span class="o">*</span> <span class="kr">as</span> <span class="nx">appRoot</span> <span class="nx">from</span> <span class="s2">&quot;app-root-path&quot;</span><span class="p">;</span>
+
+<span class="c1">// tslint:disable-next-line:no-var-requires</span>
+<span class="kr">const</span> <span class="nx">pj</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="sb">`</span><span class="si">${</span><span class="nx">appRoot</span><span class="si">}</span><span class="sb">/package.json`</span><span class="p">);</span>
+
+<span class="kr">const</span> <span class="nx">token</span> <span class="o">=</span> <span class="nx">process</span><span class="p">.</span><span class="nx">env</span><span class="p">.</span><span class="nx">GITHUB_TOKEN</span><span class="p">;</span>
+
+<span class="kr">export</span> <span class="kr">const</span> <span class="nx">configuration</span>: <span class="kt">Configuration</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="nx">name</span>: <span class="kt">pj.name</span><span class="p">,</span>
+    <span class="nx">version</span>: <span class="kt">pj.version</span><span class="p">,</span>
+    <span class="nx">teamIds</span><span class="o">:</span> <span class="p">[],</span>
+    <span class="nx">token</span><span class="p">,</span>
+<span class="p">};</span>
+</pre></div>
+
+<p>If the <code>teamIds</code> array exists and its length is greater than zero (0),
+the value in the project configuration will be used.  If the
+environment variable <code>GITHUB_TOKEN</code> exists and has non-zero length, it
+will be used.  For more complex configurations, e.g., different teams
+and tokens for different environments, you can use the <a href="https://www.npmjs.com/package/config" title="config Node.js package">config</a>
+Node.js package to supply values for <code>teamIds</code> and <code>token</code>.</p>
+<p>By default, all automations in your project will be registered with
+the automation API when the client starts up (see <a href="#client-lifecycle" title="Atomist Automation Client Lifecycle">lifecycle</a>).  If
+you only want a subset of your automations active, you can explicitly
+list them using the <code>commands</code> and <code>events</code> arrays in the
+<code>configuration</code> object:</p>
+<div class="codehilite"><pre><span></span><span class="kr">import</span> <span class="p">{</span> <span class="nx">HelloWorld</span> <span class="p">}</span> <span class="nx">from</span> <span class="s2">&quot;./commands/HelloWorld&quot;</span><span class="p">;</span>
+<span class="kr">import</span> <span class="p">{</span> <span class="nx">NotifyOnPush</span> <span class="p">}</span> <span class="nx">from</span> <span class="s2">&quot;./events/NotifyOnPush&quot;</span><span class="p">;</span>
+
+<span class="kr">export</span> <span class="kr">const</span> <span class="nx">configuration</span>: <span class="kt">Configuration</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="nx">name</span>: <span class="kt">pj.name</span><span class="p">,</span>
+    <span class="nx">version</span>: <span class="kt">pj.version</span><span class="p">,</span>
+    <span class="nx">teamIds</span><span class="o">:</span> <span class="p">[],</span>
+    <span class="nx">token</span><span class="p">,</span>
+    <span class="nx">commands</span><span class="o">:</span> <span class="p">[</span>
+        <span class="nx">HelloWorld</span><span class="p">,</span>
+    <span class="p">],</span>
+    <span class="nx">events</span><span class="o">:</span> <span class="p">[</span>
+        <span class="nx">NotifyOnPush</span><span class="p">,</span>
+    <span class="p">],</span>
+<span class="p">};</span>
+</pre></div>
+
+<h2 id="starting-a-client">Starting a client<a class="headerlink" href="#starting-a-client" title="Permanent link">&para;</a></h2>
+<p>There are a few different ways to start the automation client,
+depending on how you are running it.  If you are running the
+automation client locally, you can use the standard NPM <code>start</code>
+command.</p>
+<div class="codehilite"><pre><span></span>npm start
+</pre></div>
+
+<p>If you are writing your own automations, you probably want a more
+responsive testing environment, having the client restart any time you
+make changes to the source code.  This fairly standard development
+flow is available with the <code>autostart</code> command.</p>
+<div class="codehilite"><pre><span></span>npm run autostart
+</pre></div>
+
+<p>When running in a production environment, you typically want to avoid
+NPM and run Node.js directly to ensure signals get delivered properly
+and you can provide guidance to Node.js&rsquo;s memory management subsystem.
+Here&rsquo;s an example startup command for production environments:</p>
+<div class="codehilite"><pre><span></span>node $NODE_DEBUG_OPTION --trace-warnings --expose_gc --optimize_for_size \
+    --always_compact --max_old_space_size=384 node_modules/.bin/atomist-client
+</pre></div>
+
+<p>See <code>node --help</code> and <code>node --v8-options</code> for more detail on these
+options.</p>
+<h2 id="client-lifecycle">Client lifecycle<a class="headerlink" href="#client-lifecycle" title="Permanent link">&para;</a></h2>
+<p>The automation client lifecycle will be familiar to those developing
+persistent applications.</p>
+<ol>
+<li>
+<p><strong>Authentication</strong> - When the automation client starts up, it
+    connects to the automation API and authenticates using
+    the <a href="../prerequisites/#github-token">GitHub personal access token</a> you have provided in
+    your client configuration file.  This token has <em>read:org</em> scope,
+    allowing the automation API to establish who you are and your
+    GitHub organization memberships.</p>
+</li>
+<li>
+<p><strong>Registration</strong> - Once your identity has been established, the
+    client registers its automations, i.e., the bot commands it
+    provides and the events it wants to receive, with the Slack teams
+    specified in your client configuration.  If Atomist does not
+    recognize your Slack team or your GitHub identity is not connected
+    to any member of that Slack team, registration will fail and the
+    client will exit with an unsuccessful status.</p>
+</li>
+<li>
+<p><strong>Listening</strong> - After authentication and registration is completed
+    successfully, the WebSocket connection is established and the
+    client begins listening for incoming messages from the API: bot
+    commands and events fired.</p>
+</li>
+<li>
+<p><strong>Shutdown</strong> - When the client receives a shutdown signal,
+    typically <code>SIGINT</code> delivered by the PaaS or <code>Ctrl-C</code>, it
+    de-registers with the API and gracefully shuts down.</p>
+</li>
+</ol>
+<h2 id="project-structure">Project structure<a class="headerlink" href="#project-structure" title="Permanent link">&para;</a></h2>
+<p>Automation client projects are organized and behave like any standard
+TypeScript project.</p>
+<h3 id="packagejson">package.json<a class="headerlink" href="#packagejson" title="Permanent link">&para;</a></h3>
+<p>The <code>package.json</code> file defines the metadata and dependencies for the
+project.  In addition, this file defines the standard &ldquo;NPM package
+scripts&rdquo;, i.e., <code>npm run</code> commands, typically available in Node.js
+projects.  Here&rsquo;s a summary of the NPM package scripts available in
+most automation client projects.</p>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>npm install</code></td>
+<td>install all the required packages</td>
+</tr>
+<tr>
+<td><code>npm run autostart</code></td>
+<td>run the client, refreshing when files change</td>
+</tr>
+<tr>
+<td><code>npm run autotest</code></td>
+<td>run tests every time files change</td>
+</tr>
+<tr>
+<td><code>npm run build</code></td>
+<td>lint, compile, and test</td>
+</tr>
+<tr>
+<td><code>npm run clean</code></td>
+<td>remove stray compiled JavaScript files and build directory</td>
+</tr>
+<tr>
+<td><code>npm run compile</code></td>
+<td>compile all TypeScript into JavaScript</td>
+</tr>
+<tr>
+<td><code>npm run fmt</code></td>
+<td>run tsfmt on TypeScript files</td>
+</tr>
+<tr>
+<td><code>npm run lint</code></td>
+<td>run tslint against the TypeScript</td>
+</tr>
+<tr>
+<td><code>npm run lint:fix</code></td>
+<td>run <code>tslint --fix</code> against the TypeScript</td>
+</tr>
+<tr>
+<td><code>npm start</code></td>
+<td>start the Atomist automation client</td>
+</tr>
+<tr>
+<td><code>npm test</code></td>
+<td>run tests</td>
+</tr>
+</tbody>
+</table>
+<h3 id="build">build<a class="headerlink" href="#build" title="Permanent link">&para;</a></h3>
+<p>The <code>build</code> directory contains the JavaScript sources output from
+TypeScript compilation.</p>
+<h3 id="config">config<a class="headerlink" href="#config" title="Permanent link">&para;</a></h3>
+<p>The <code>config</code> directory is optional, used only when you use
+the <a href="https://www.npmjs.com/package/config" title="Node-config">config</a> Node.js package.</p>
+<h3 id="graphql">graphql<a class="headerlink" href="#graphql" title="Permanent link">&para;</a></h3>
+<p>The <code>graphql</code> directory contains <code>.graphql</code> files defining
+your <a href="http://graphql.org/" title="GraphQL">GraphQL</a> queries, subscriptions, and mutations.  This
+directory is optional, as you can define your GraphQL in strings
+within the source code.  That said, it is recommended that you define
+your GraphQL in <code>.graphql</code> files so you can realize the full benefit
+of its type bindings in TypeScript.</p>
+<h3 id="node_modules">node_modules<a class="headerlink" href="#node_modules" title="Permanent link">&para;</a></h3>
+<p>The <code>node_modules</code> directory contains all the project dependencies, as
+defined in the <code>package.json</code> and installed by NPM.</p>
+<h3 id="scripts">scripts<a class="headerlink" href="#scripts" title="Permanent link">&para;</a></h3>
+<p>The <code>scripts</code> directory contains various ancillary scripts.  For
+example, this directory might have scripts for building the project on
+CI, publishing the project as an Node.js package, and publishing the
+project&rsquo;s <a href="http://typedoc.org/" title="TypeDoc">TypeDoc</a>.</p>
+<h3 id="src">src<a class="headerlink" href="#src" title="Permanent link">&para;</a></h3>
+<p>The <code>src</code> directory contains the TypeScript source code.</p>
+<h4 id="atomistconfigts">atomist.config.ts<a class="headerlink" href="#atomistconfigts" title="Permanent link">&para;</a></h4>
+<p>The <code>atomist.config.ts</code> file contains automation client
+project-specific configuration.
+See <a href="./#client-configuration" title="Atomist Automation Client Configuration">Client Configuration</a> for more details.</p>
+<h4 id="commands">commands<a class="headerlink" href="#commands" title="Permanent link">&para;</a></h4>
+<p>The <code>src/commands</code> directory contains the source code for commands.</p>
+<h4 id="events">events<a class="headerlink" href="#events" title="Permanent link">&para;</a></h4>
+<p>The <code>src/events</code> directory contains the source code for event
+handlers.</p>
+<h4 id="typings">typings<a class="headerlink" href="#typings" title="Permanent link">&para;</a></h4>
+<p>The <code>src/typings</code> directory contains the auto-generated TypeScript
+types for your GraphQL queries, subscriptions, and mutations.</p>
+<h3 id="test">test<a class="headerlink" href="#test" title="Permanent link">&para;</a></h3>
+<p>The <code>test</code> directory contains the automated tests for the project.
+Typically these are unit tests written using <a href="https://mochajs.org/" title="Mocha">mocha</a>
+and <a href="https://github.com/power-assert-js/power-assert#readme" title="power-assert">power-assert</a>.</p>
+<!--
+## Debugging with Visual Studio Code
+-->
+                
+                  
+                
+              
+              
+                
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../editors/" title="Editing Projects" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Editing Projects
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../run/" title="Running Automation Clients" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Running Automation Clients
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            &copy; 2017 Atomist, Inc.
+          </div>
+        
+        powered by
+        <a href="http://www.mkdocs.org" title="MkDocs">MkDocs</a>
+        and
+        <a href="http://squidfunk.github.io/mkdocs-material/" title="Material for MkDocs">
+          Material for MkDocs</a>
+      </div>
+      
+        
+  <div class="md-footer-social">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+      <a href="https://the-composition.com/" class="md-footer-social__link fa fa-medium"></a>
+    
+      <a href="https://github.com/atomist" class="md-footer-social__link fa fa-github"></a>
+    
+      <a href="https://twitter.com/atomist" class="md-footer-social__link fa fa-twitter"></a>
+    
+      <a href="https://join.atomist.com/" class="md-footer-social__link fa fa-slack"></a>
+    
+  </div>
+
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application-8e4952e681.js"></script>
+      
+      <script>app.initialize({version:"0.17.1",url:{base:"../.."}})</script>
+      
+        <script src="../../js/intercom.js"></script>
+      
+        <script src="../../js/mixpanel.js"></script>
+      
+    
+    
+      
+      <script>!function(e,t,a,n,o,c,i){e.GoogleAnalyticsObject=o,e[o]=e[o]||function(){(e[o].q=e[o].q||[]).push(arguments)},e[o].l=1*new Date,c=t.createElement(a),i=t.getElementsByTagName(a)[0],c.async=1,c.src=n,i.parentNode.insertBefore(c,i)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-74966852-1","auto"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var t=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",t,e.href)})});var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})</script>
+      
+    
+  </body>
+</html>
